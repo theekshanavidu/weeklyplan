@@ -1,0 +1,68 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styles with background image */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-image: url('file:///C:/Users/Administrator/Downloads/wallpaperflare.com_wallpaper%20(1).jpg'); with your image URL */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* Header styles */
+header {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+header h1 {
+  font-size: 3em;
+  text-transform: uppercase;
+}
+
+/* Main content styles */
+main {
+  width: 80%;
+  margin: 20px auto;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.schedule {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.schedule h2 {
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  margin-bottom: 10px;
+  color: #555;
+}
+
+/* Footer styles */
+footer {
+  text-align: center;
+  color: #FFFFFF;
+  padding: 10px 0;
+}
